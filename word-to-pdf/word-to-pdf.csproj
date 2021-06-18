@@ -6,23 +6,153 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="Fonts\arial.ttf" />
+    <None Remove="Fonts\arialbd.ttf" />
+    <None Remove="Fonts\arialbi.ttf" />
+    <None Remove="Fonts\ariali.ttf" />
+    <None Remove="Fonts\ARIALN.TTF" />
+    <None Remove="Fonts\ARIALNB.TTF" />
+    <None Remove="Fonts\ARIALNBI.TTF" />
+    <None Remove="Fonts\ARIALNI.TTF" />
+    <None Remove="Fonts\ariblk.ttf" />
+    <None Remove="Fonts\BASKVILL.TTF" />
+    <None Remove="Fonts\BOD_B.TTF" />
+    <None Remove="Fonts\BOD_BI.TTF" />
+    <None Remove="Fonts\BOD_BLAI.TTF" />
+    <None Remove="Fonts\BOD_BLAR.TTF" />
+    <None Remove="Fonts\BOD_CB.TTF" />
+    <None Remove="Fonts\BOD_CBI.TTF" />
+    <None Remove="Fonts\BOD_CI.TTF" />
+    <None Remove="Fonts\BOD_CR.TTF" />
+    <None Remove="Fonts\BOD_I.TTF" />
+    <None Remove="Fonts\BOD_PSTC.TTF" />
+    <None Remove="Fonts\BOD_R.TTF" />
     <None Remove="Fonts\calibri.ttf" />
     <None Remove="Fonts\calibrib.ttf" />
     <None Remove="Fonts\calibrii.ttf" />
     <None Remove="Fonts\calibril.ttf" />
     <None Remove="Fonts\calibrili.ttf" />
     <None Remove="Fonts\calibriz.ttf" />
+    <None Remove="Fonts\FRABK.TTF" />
+    <None Remove="Fonts\FRABKIT.TTF" />
+    <None Remove="Fonts\FRADM.TTF" />
+    <None Remove="Fonts\FRADMCN.TTF" />
+    <None Remove="Fonts\FRADMIT.TTF" />
+    <None Remove="Fonts\FRAHV.TTF" />
+    <None Remove="Fonts\FRAHVIT.TTF" />
+    <None Remove="Fonts\framd.ttf" />
+    <None Remove="Fonts\FRAMDCN.TTF" />
+    <None Remove="Fonts\framdit.ttf" />
     <None Remove="Fonts\GARA.TTF" />
     <None Remove="Fonts\GARABD.TTF" />
     <None Remove="Fonts\GARAIT.TTF" />
+    <None Remove="Fonts\georgia.ttf" />
+    <None Remove="Fonts\georgiab.ttf" />
+    <None Remove="Fonts\georgiai.ttf" />
+    <None Remove="Fonts\georgiaz.ttf" />
+    <None Remove="Fonts\GILBI___.TTF" />
+    <None Remove="Fonts\GILB____.TTF" />
+    <None Remove="Fonts\GILC____.TTF" />
+    <None Remove="Fonts\GILI____.TTF" />
+    <None Remove="Fonts\GILLUBCD.TTF" />
+    <None Remove="Fonts\GILSANUB.TTF" />
+    <None Remove="Fonts\GIL_____.TTF" />
+    <None Remove="Fonts\GLSNECB.TTF" />
+    <None Remove="Fonts\MinionPro-Bold.otf" />
+    <None Remove="Fonts\MinionPro-BoldIt.otf" />
+    <None Remove="Fonts\MinionPro-It.otf" />
+    <None Remove="Fonts\MinionPro-Regular.otf" />
+    <None Remove="Fonts\MinionPro-Semibold.otf" />
+    <None Remove="Fonts\MinionPro-SemiboldIt.otf" />
     <None Remove="Fonts\msgothic.ttc" />
+    <None Remove="Fonts\MyriadPro-Black.otf" />
+    <None Remove="Fonts\MyriadPro-BlackIt.otf" />
+    <None Remove="Fonts\MyriadPro-Bold.otf" />
+    <None Remove="Fonts\MyriadPro-BoldIt.otf" />
+    <None Remove="Fonts\MyriadPro-It.otf" />
+    <None Remove="Fonts\MyriadPro-Light.otf" />
+    <None Remove="Fonts\MyriadPro-LightIt.otf" />
+    <None Remove="Fonts\MyriadPro-Regular.otf" />
+    <None Remove="Fonts\MyriadPro-Semibold.otf" />
+    <None Remove="Fonts\MyriadPro-SemiboldIt.otf" />
+    <None Remove="Fonts\ROCCB___.TTF" />
+    <None Remove="Fonts\ROCC____.TTF" />
+    <None Remove="Fonts\ROCK.TTF" />
+    <None Remove="Fonts\ROCKB.TTF" />
+    <None Remove="Fonts\ROCKBI.TTF" />
+    <None Remove="Fonts\ROCKEB.TTF" />
+    <None Remove="Fonts\ROCKI.TTF" />
     <None Remove="Fonts\times.ttf" />
     <None Remove="Fonts\timesbd.ttf" />
     <None Remove="Fonts\timesbi.ttf" />
     <None Remove="Fonts\timesi.ttf" />
+    <None Remove="Fonts\webdings.ttf" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="Fonts\arial.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\arialbd.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\arialbi.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\ariali.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\ARIALN.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\ARIALNB.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\ARIALNBI.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\ARIALNI.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\ariblk.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\BASKVILL.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\BOD_B.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\BOD_BI.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\BOD_BLAI.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\BOD_BLAR.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\BOD_CB.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\BOD_CBI.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\BOD_CI.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\BOD_CR.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\BOD_I.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\BOD_PSTC.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\BOD_R.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Fonts\calibri.ttf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -41,6 +171,36 @@
     <Content Include="Fonts\calibriz.ttf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Fonts\FRABK.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\FRABKIT.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\FRADM.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\FRADMCN.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\FRADMIT.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\FRAHV.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\FRAHVIT.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\framd.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\FRAMDCN.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\framdit.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Fonts\GARA.TTF">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -50,7 +210,112 @@
     <Content Include="Fonts\GARAIT.TTF">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Fonts\georgia.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\georgiab.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\georgiai.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\georgiaz.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\GILBI___.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\GILB____.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\GILC____.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\GILI____.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\GILLUBCD.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\GILSANUB.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\GIL_____.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\GLSNECB.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\MinionPro-Bold.otf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\MinionPro-BoldIt.otf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\MinionPro-It.otf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\MinionPro-Regular.otf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\MinionPro-Semibold.otf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\MinionPro-SemiboldIt.otf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Fonts\msgothic.ttc">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\MyriadPro-Black.otf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\MyriadPro-BlackIt.otf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\MyriadPro-Bold.otf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\MyriadPro-BoldIt.otf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\MyriadPro-It.otf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\MyriadPro-Light.otf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\MyriadPro-LightIt.otf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\MyriadPro-Regular.otf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\MyriadPro-Semibold.otf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\MyriadPro-SemiboldIt.otf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\ROCCB___.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\ROCC____.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\ROCK.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\ROCKB.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\ROCKBI.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\ROCKEB.TTF">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\ROCKI.TTF">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Fonts\times.ttf">
@@ -63,6 +328,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Fonts\timesi.ttf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Fonts\webdings.ttf">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
