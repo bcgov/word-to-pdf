@@ -44,7 +44,7 @@ namespace word_to_pdf.Controllers
                         byte[] pdfBytes = dstStream.ToArray();
 
                         var res = System.Convert.ToBase64String(pdfBytes);
-                        return await Task.FromResult(Ok(res));
+                        return await Task.FromResult(Ok(new { pdfString = res }));
                     }
                 }
             }
