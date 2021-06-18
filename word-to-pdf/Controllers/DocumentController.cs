@@ -49,11 +49,7 @@ namespace word_to_pdf.Controllers
     {
         public void Warning(WarningInfo info)
         {
-            // We are only interested in fonts being substituted.
             Console.WriteLine(info.WarningType + " :: " + info.Description.ToString());
-            //if (info.WarningType == WarningType.FontSubstitution)
-            //{
-            //}
         }
     }
 }
