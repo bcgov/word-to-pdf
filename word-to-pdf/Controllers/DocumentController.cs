@@ -24,6 +24,9 @@ namespace word_to_pdf.Controllers
 
                     Document convertedDoc = new Document(memoryStream);
 
+                    HandleDocumentWarnings callback = new HandleDocumentWarnings();
+                    convertedDoc.WarningCallback = callback;
+
                     using (MemoryStream dstStream = new MemoryStream())
                     {
                         convertedDoc.Save(dstStream, SaveFormat.Pdf);
@@ -39,6 +42,18 @@ namespace word_to_pdf.Controllers
             {
                 return BadRequest(e);
             }
+        }
+    }
+
+    public class HandleDocumentWarnings : IWarningCallback
+    {
+        public void Warning(WarningInfo info)
+        {
+            // We are only interested in fonts being substituted.
+            Console.WriteLine(info.WarningType + " :: " + info.Description.ToString());
+            //if (info.WarningType == WarningType.FontSubstitution)
+            //{
+            //}
         }
     }
 }
