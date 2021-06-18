@@ -13,19 +13,26 @@ namespace word_to_pdf.Controllers
     public class DocumentController : ControllerBase
     {
 
+        private string getFontsDir()
+        {
+            return Environment.CurrentDirectory + "/Fonts";
+        }
+
         [HttpPost("convert")]
         public async Task<IActionResult> ConvertToPdf([FromBody] DocumentData doc)
         {
             try
             {
                 FontSettings fontSettings = new FontSettings();
-                fontSettings.SetFontsFolder(Environment.CurrentDirectory + "/Fonts", true);
+                fontSettings.SetFontsFolder(getFontsDir(), true);
+
                 byte[] byteArray = Convert.FromBase64String(doc.body);
                 using (MemoryStream memoryStream = new MemoryStream())
                 {
                     memoryStream.Write(byteArray, 0, byteArray.Length);
 
                     Document convertedDoc = new Document(memoryStream);
+                    convertedDoc.FontSettings = fontSettings;
 
                     HandleDocumentWarnings callback = new HandleDocumentWarnings();
                     convertedDoc.WarningCallback = callback;
