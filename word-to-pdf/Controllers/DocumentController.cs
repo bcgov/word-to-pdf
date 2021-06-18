@@ -2,6 +2,7 @@
 using System.IO;
 using System.Threading.Tasks;
 using Aspose.Words;
+using Aspose.Words.Fonts;
 using Microsoft.AspNetCore.Mvc;
 using word_to_pdf.Models;
 
@@ -17,6 +18,8 @@ namespace word_to_pdf.Controllers
         {
             try
             {
+                FontSettings fontSettings = new FontSettings();
+                fontSettings.SetFontsFolder(Environment.CurrentDirectory + "/Fonts", true);
                 byte[] byteArray = Convert.FromBase64String(doc.body);
                 using (MemoryStream memoryStream = new MemoryStream())
                 {
