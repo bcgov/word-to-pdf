@@ -14,6 +14,9 @@ namespace word_to_pdf
         {
             Configuration = configuration;
             string licenseString = Configuration["ASPOSE_LICENSE"];
+            Console.WriteLine("test");
+            Console.WriteLine(licenseString);
+            Console.WriteLine("test");
             byte[] licenseBytes = Convert.FromBase64String(licenseString);
             Aspose.Words.License license = new Aspose.Words.License();
             try
