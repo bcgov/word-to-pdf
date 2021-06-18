@@ -6,68 +6,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Fonts\calibri.ttf" />
-    <None Remove="Fonts\calibrib.ttf" />
-    <None Remove="Fonts\calibrii.ttf" />
-    <None Remove="Fonts\calibril.ttf" />
-    <None Remove="Fonts\calibrili.ttf" />
-    <None Remove="Fonts\calibriz.ttf" />
-    <None Remove="Fonts\GARA.TTF" />
-    <None Remove="Fonts\GARABD.TTF" />
-    <None Remove="Fonts\GARAIT.TTF" />
-    <None Remove="Fonts\msgothic.ttc" />
-    <None Remove="Fonts\times.ttf" />
-    <None Remove="Fonts\timesbd.ttf" />
-    <None Remove="Fonts\timesbi.ttf" />
-    <None Remove="Fonts\timesi.ttf" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Content Include="Fonts\calibri.ttf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Fonts\calibrib.ttf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Fonts\calibrii.ttf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Fonts\calibril.ttf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Fonts\calibrili.ttf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Fonts\calibriz.ttf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Fonts\GARA.TTF">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Fonts\GARABD.TTF">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Fonts\GARAIT.TTF">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Fonts\msgothic.ttc">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Fonts\times.ttf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Fonts\timesbd.ttf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Fonts\timesbi.ttf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Fonts\timesi.ttf">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-  </ItemGroup>
-
-  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.1.2" PrivateAssets="All" />
     <PackageReference Include="Aspose.Words" Version="21.6.0" />
